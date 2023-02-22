@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+  font-family: 'Overpass', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  font-family: inherit;
+}
+img {
+  max-width: 100%;
+}
+p {
+  line-height: 1.8;
+}
+ul {
+  list-style: none;
+}
+.container,
+.thank__you {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 0.625rem;
+  padding: 1.5rem;
+  max-width: 468px;
+}
+.container > img {
+  background-color: hsl(213, 20%, 22%);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+.container > h1 {
+  color: #fff;
+  margin: 2rem 0 1rem;
+}
+.container > p {
+  color: hsl(217, 12%, 63%);
+  margin: 0 0 1rem 0;
+}
+.container > ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 2rem 0;
+}
+.container > ul > li > button {
+  height: 3rem;
+  width: 3rem;
+  background-color: hsl(213, 20%, 22%);
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container > ul > li > button:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+.container > ul > li > button:focus {
+  background-color: hsl(217, 12%, 63%);
+}
+.submit__btn {
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  padding: 0.8rem 0 0.6rem 0;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.submit__btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank__you {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.thank__you img {
+  display: block;
+  margin: 0 auto 2rem;
+}
+.thank__you h2 {
+  color: #fff;
+  margin: 0 0 1rem 0;
+}
+.thank__you p {
+  color: hsl(217, 12%, 63%);
+  margin: 0 0 2rem 0;
+}
+.thank__you .selected {
+  background-color: hsl(213, 20%, 22%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  margin: 0 0 2rem 0;
+  padding: 0.2rem 0.5rem 0;
+}
+.hidden {
+  display: none;
+}
