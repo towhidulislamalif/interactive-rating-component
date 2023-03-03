@@ -5,4 +5,5 @@
 ## project link
 
 - [GitHub Pages](https://github.com/towhidulislamalif/interactive-rating-component)
-- [Vercel](https://interactive-rating-component-omega-brown.vercel.app/)
+- [Netlify](https://interactive-rating-application.netlify.app/)
+
