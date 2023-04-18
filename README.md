@@ -8,7 +8,6 @@ Thanks for checking out this front-end coding challenge.
 
 ## Project link
 
-- [GitHub Pages](https://github.com/towhidulislamalif/interactive-rating-component)
 - [Netlify](https://interactive-rating-application.netlify.app/)
 
 ## Author
